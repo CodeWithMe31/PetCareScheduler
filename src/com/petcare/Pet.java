@@ -100,7 +100,7 @@ public class Pet implements Serializable{
             "UID: '" + UID + '\'' + 
             ", Name: '" + name + '\'' + 
             ", Species/Breed: '" + speciesOrBreed + '\'' + 
-            ", Age: " + age + '\'' +
+            ", Age: " + age +
             ", Owner: '" + ownerName + '\'' + 
             ", Contact: '" + contactInfo + '\'' + 
             ", Registered: " + registrationDate + 
