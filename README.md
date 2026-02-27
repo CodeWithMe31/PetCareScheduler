@@ -35,12 +35,12 @@ PetCareScheduler/
 ## ▶️ How to Run
 1. Compile the source files:
    ```bash
-   javac -d bin src/*.java
+   javac -d bin src\com\petcare\*.java
    ```
 
 2. Run the application:
    ```bash
-   java -cp bin PetCareScheduler
+   java -cp bin com.petcare.PetCareScheduler
    ```
 
 ## 📜 Requirements
