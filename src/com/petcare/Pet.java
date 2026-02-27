@@ -96,7 +96,14 @@ public class Pet implements Serializable{
     }
     @Override
     public String toString() {
-        return "Pet ID: " + UID + " | Name: " + name + " | Species: " + speciesOrBreed + 
-           " | Age: " + age + " | Owner: " + ownerName + " (" + contactInfo + ")";
-}
+        return "Pet{" + 
+            "UID: '" + UID + '\'' + 
+            ", Name: '" + name + '\'' + 
+            ", Species/Breed: '" + speciesOrBreed + '\'' + 
+            ", Age: " + age + '\'' +
+            ", Owner: '" + ownerName + '\'' + 
+            ", Contact: '" + contactInfo + '\'' + 
+            ", Registered: " + registrationDate + 
+            "}";
+    }
 }
