@@ -7,3 +7,10 @@
 # Serialized Data Files
 # =========================
 *.ser
+
+# =========================
+# IDE Specific meta data if any
+# =========================
+.project
+.settings/
+.idea/
