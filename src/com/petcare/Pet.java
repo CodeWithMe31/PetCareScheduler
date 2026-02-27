@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.io.Serializable;
 
 public class Pet implements Serializable{
     private String UID;
@@ -57,7 +56,7 @@ public class Pet implements Serializable{
     public String getContactInfo() {
         return contactInfo;
     }
-    public LocalDate getResgistrationDate() {
+    public LocalDate getRegistrationDate() {
         return registrationDate;
     }
     public List<Appointment> getAppointments() {
@@ -95,4 +94,9 @@ public class Pet implements Serializable{
     public boolean removeAppointment(Appointment appointment) {
         return this.appointments.remove(appointment);
     }
+    @Override
+    public String toString() {
+        return "Pet ID: " + UID + " | Name: " + name + " | Species: " + speciesOrBreed + 
+           " | Age: " + age + " | Owner: " + ownerName + " (" + contactInfo + ")";
+}
 }
