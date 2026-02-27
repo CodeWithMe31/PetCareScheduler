@@ -277,7 +277,7 @@ public class PetCareScheduler {
             // filter only "Vet Visit" type appointments
             List<Appointment> vetVisits = pet.getAppointments().stream()
                     .filter(a -> a.getAppointmentType().equalsIgnoreCase("Vet Visit"))
-                    .toList();
+                    .collect(Collectors.toList());
 
             if (vetVisits.isEmpty()) {
                 // No vet visits at all → automatically overdue
