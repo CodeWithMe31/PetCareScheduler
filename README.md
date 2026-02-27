@@ -19,15 +19,10 @@
 ```
 PetCareScheduler/
 │── src/
-│   ├── Appointment.java
-│   ├── Pet.java
-│   └── PetCareScheduler.java
-│── bin/
-│   ├── Appointment.class
-│   ├── Pet.class
-│   └── PetCareScheduler.class
-│── data/
-│   └── pets.ser
+│   ├── com/petcare/
+│      ├── Appointment.java
+│      ├── Pet.java
+│      └── PetCareScheduler.java
 │── README.md
 │── .gitignore
 ```
